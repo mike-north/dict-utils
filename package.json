@@ -9,10 +9,10 @@
   "module": "dist/es/index.js",
   "typings": "dist/types/dict-utils.d.ts",
   "files": [
-    "dict/**/*",
-    "src/**/*",
-    "docs/**/*",
-    "etc/**/*"
+    "dict",
+    "src",
+    "docs",
+    "etc"
   ],
   "scripts": {
     "prepare": "yarn rebuild",
