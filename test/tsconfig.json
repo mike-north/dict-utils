@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ES2018",
+    "sourceMap": true,
+    "outDir": "../.test-js",
+    "module": "CommonJS",
+    "strict": true
+  },
+  "include": [".", "../src"],
+  "exclude": ["../dist", "../node_modules", "**/node_modules/**"]
+}

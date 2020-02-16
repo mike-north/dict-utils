@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ES2018",
+    "sourceMap": true,
+    "module": "ES2015",
+    "strict": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules", "**/node_modules/**"]
+}
