@@ -139,4 +139,4 @@ jobs:
           name: build_${{ matrix.node-version }}
           path: ../sync
       - run: tar -xf ../sync/build.tar .
-      - run: yarn test
+      - run: yarn test-ts
