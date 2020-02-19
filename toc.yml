@@ -1,0 +1,6 @@
+- name: Articles
+  homepage: articles
+- name: Api Documentation
+  homepage: apidoc
+- name: GitHub
+  href: https://github.com/mike-north/dict-utils

@@ -1,0 +1,39 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: dict-utils!
+  name: dict-utils
+  href: apidoc/dict-utils.html
+  fullName: dict-utils
+- uid: dict-utils!Dict:type
+  name: Dict
+  href: apidoc/dict-utils.html#dict_utils_Dict_type
+  fullName: Dict
+- uid: dict-utils!dictFilter:function(1)
+  name: dictFilter(from, filter)
+  href: apidoc/dict-utils.html#dict_utils_dictFilter_function_1_
+  fullName: dictFilter(from, filter)
+- uid: dict-utils!dictFilter:function(2)
+  name: dictFilter(from, filter)
+  href: apidoc/dict-utils.html#dict_utils_dictFilter_function_2_
+  fullName: dictFilter(from, filter)
+- uid: dict-utils!dictForEach:function(1)
+  name: dictForEach(from, callback)
+  href: apidoc/dict-utils.html#dict_utils_dictForEach_function_1_
+  fullName: dictForEach(from, callback)
+- uid: dict-utils!dictMap:function(1)
+  name: dictMap(from, transform)
+  href: apidoc/dict-utils.html#dict_utils_dictMap_function_1_
+  fullName: dictMap(from, transform)
+- uid: dict-utils!dictReduce:function(1)
+  name: dictReduce(from, reducer, initialVal)
+  href: apidoc/dict-utils.html#dict_utils_dictReduce_function_1_
+  fullName: dictReduce(from, reducer, initialVal)
+- uid: dict-utils!IReducerFn:type
+  name: IReducerFn
+  href: apidoc/dict-utils.html#dict_utils_IReducerFn_type
+  fullName: IReducerFn
+- uid: dict-utils!ITransformerFn:type
+  name: ITransformerFn
+  href: apidoc/dict-utils.html#dict_utils_ITransformerFn_type
+  fullName: ITransformerFn
