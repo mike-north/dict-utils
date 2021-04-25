@@ -1,0 +1,48 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@microsoft/api-documenter": "^7.13.3",
+    "@microsoft/api-extractor": "^7.14.0",
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "chai": "^4.3.4",
+    "dtslint": "^4.0.9",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.3.2",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "api-surface:local": "yarn api-extractor run --local",
+    "api-surface": "yarn api-extractor run",
+    "api-docs": "yarn api-documenter markdown -i temp -o docs",
+    "lint": "eslint --ext js,ts",
+    "test": "yarn lint && yarn test:ts && yarn test:types",
+    "test:ts": "mocha --config test/.mocharc.json test/**.test.ts",
+    "test:types": "dtslint type-tests"
+  },
+  "name": "@mike-north/dict-utils",
+  "version": "1.0.0",
+  "description": "Higher-order functions and more for Dict<T>",
+  "main": "out/index.js",
+  "repository": "https://github.com/mike-north/dict-utils",
+  "author": "Mike North <michael.l.north@gmail.com>",
+  "license": "BSD-2-Clause",
+  "private": false,
+  "volta": {
+    "node": "14.16.1",
+    "yarn": "1.22.10"
+  },
+  "dependencies": {
+    "@mike-north/types": "^1.4.0"
+  }
+}
