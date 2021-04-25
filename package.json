@@ -34,6 +34,7 @@
   "version": "1.0.0",
   "description": "Higher-order functions and more for Dict<T>",
   "main": "out/index.js",
+  "types": "out/dict-utils.d.ts",
   "repository": "https://github.com/mike-north/dict-utils",
   "author": "Mike North <michael.l.north@gmail.com>",
   "license": "BSD-2-Clause",
